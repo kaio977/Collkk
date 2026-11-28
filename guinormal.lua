@@ -862,9 +862,9 @@ local t1 = {
 	Themes = {
 		Wicked = {
 		    ["Color Hub 1"] = ColorSequence.new({
-		        ColorSequenceKeypoint.new(0, Color3.fromRGB(25, 0, 65)),
-  		      ColorSequenceKeypoint.new(0.5, Color3.fromRGB(45, 0, 100)),
-  		      ColorSequenceKeypoint.new(1, Color3.fromRGB(25, 0, 65))
+		        ColorSequenceKeypoint.new(0, Color3.fromRGB(5, 0, 15)),
+  		      ColorSequenceKeypoint.new(0.5, Color3.fromRGB(5, 0, 15)),
+  		      ColorSequenceKeypoint.new(1, Color3.fromRGB(5, 0, 15))
 		    }),
 		    ["Color Hub 2"] = Color3.fromRGB(20, 10, 35),
 		    ["Color Stroke"] = Color3.fromRGB(100, 0, 255),
@@ -1723,7 +1723,7 @@ t1.MakeWindow = function(p84, p85)
 	t11.CloseBtn = function()
 		t11:Dialog({
 			Title = "Fechar",
-			Text = "tem certeza que deseja fechar coquette hub?",
+			Text = "Tem certeza que deseja fechar Astryx Hub?",
 			Options = {
 				{
 					"Confirmar",
@@ -3662,7 +3662,7 @@ t1.MakeWindow = function(p84, p85)
 				Font = Enum.Font.GothamMedium,
 				TextSize = 13,
 				TextColor3 = Color3.fromRGB(220, 220, 220),
-				BackgroundColor3 = Color3.fromRGB(50, 150, 50)
+				BackgroundColor3 = Color3.fromRGB(100, 0, 255)
 			})
 
 			v70("Corner", TextButton, UDim.new(0, 5))
@@ -3685,7 +3685,7 @@ t1.MakeWindow = function(p84, p85)
 				task.wait(5)
 				v18(TextButton, {
 					Text = "Join",
-					BackgroundColor3 = Color3.fromRGB(50, 150, 50),
+					BackgroundColor3 = Color3.fromRGB(100, 0, 255),
 					TextColor3 = Color3.fromRGB(220, 220, 220)
 				})
 				u371 = false
